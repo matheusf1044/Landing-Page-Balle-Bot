@@ -1,0 +1,120 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 100%;
+    font-family: sans-serif;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.content {
+    border-top: 0.1px solid #FFF2E7;
+    margin-bottom: 60px;
+}
+
+.nav {
+    display: flex;
+    gap: 50px;
+}
+
+a {
+    font-family: "sarala";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFF2E7;
+}
+
+button {
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    width: 185px;
+    height: 67px;
+    color: #2F2325; 
+    background: #ECD6C4;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+} 
+
+.main-title {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.main-subtitle {
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.second-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3 {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF2E7;
+    margin-bottom: 30px;
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 74px;
+}
+
+p {
+    margin-top: 20px;
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #ECD6C4;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    border-top: 0.1px solid #FFF2E7;
+    padding: 45px;
+}
